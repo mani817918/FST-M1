@@ -1,0 +1,19 @@
+    <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+    <suite guice-stage="DEVELOPMENT" name="Default suite">
+     <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    </listeners>
+      <test thread-count="5" verbose="2" name="Default test">
+        <classes>
+          <class name="selenium.Verify1" />
+          <class name="selenium.Verify_the_website_heading2" />
+          <class name="selenium.Verifytraining3" />
+          <class name="selenium.Verifymostpopular4" />
+          <class name="selenium.VerifyMyAccount5" />
+          <class name="selenium.Verifylogin6" />
+          <class name="selenium.Verifylcourses7" />
+          <class name="selenium.contactadmin8" />
+          <class name="selenium.Verifycompletecourse9Verifylogin6" />
+        </classes>
+      </test> <!-- Default test -->
+    </suite> <!-- Default suite -->
